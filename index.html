@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Girdle of Hippolyta</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<br><h1>Contact Us</h1><br>
+		<form id="myform" method="post">
+			<label>reply_to</label>
+			<input type="text" name="reply_to" />
+			<label>from_name</label>
+			<input type="text" name="from_name" />
+			<label>to_name</label>
+			<input type="text" name="to_name" />
+			<label>message_html</label>
+			<input type="text" name="message_html" />
+			<br><br>
+			<button> Send </button>
+			<br><br>
+			<button type="button" onclick="lastEmail()">Show me my last email</button>
+		</form>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

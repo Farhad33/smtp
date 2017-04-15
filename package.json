@@ -1,0 +1,23 @@
+{
+  "name": "42",
+  "version": "1.0.0",
+  "description": "send email",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhad33/smtp.git"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farhad33/smtp/issues"
+  },
+  "homepage": "https://github.com/Farhad33/smtp#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "mail-listener": "^0.7.1"
+  }
+}
